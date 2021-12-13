@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="com.hilti.ta.RunCucumberTest" time="40.596" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\CKSAHU\Desktop\Phoenix_Workspace\testautomation-interview-project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\CKSAHU\Desktop\Phoenix_Workspace\testautomation-interview-project"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\CKSAHU\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\app\client\CKSAHU\product\12.2.0\client_1;C:\app\client\CKSAHU\product\12.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\nodejs\;C:\Users\CKSAHU\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\CKSAHU\.dotnet\tools;C:\Users\CKSAHU\AppData\Local\Programs\Azure Data Studio\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\CKSAHU\AppData\Roaming\npm;C:\Users\CKSAHU\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\CKSAHU"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="CKSAHU"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.hilti.ta.RunCucumberTest" name="runScenario" time="14.021">
+    <failure message="expected [ULTIMATE] but found [PREMIUM]" type="java.lang.AssertionError">java.lang.AssertionError: expected [ULTIMATE] but found [PREMIUM]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.hilti.ta.pages.ProductCategoryPage.verifyOnlyProductPerformanceLevelsDisplayedWhenApplyFilter(ProductCategoryPage.java:167)
+	at com.hilti.ta.pages.ProductCategoryPage.verifyProductTypeOnApplyFilters(ProductCategoryPage.java:125)
+	at com.hilti.ta.steps.PerformanceSteps.userSeeOnlySamePerformanceTypeProduct(PerformanceSteps.java:43)
+	at ✽.User can see only Ultimate performance level products on category page(file:///C:/Users/CKSAHU/Desktop/Phoenix_Workspace/testautomation-interview-project/target/test-classes/features/SampleFeature.feature:12)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6979e8cb
+
+@Smoke @Sample
+Scenario Outline: Verify performance level filtering on category page for country US # target/test-classes/features/SampleFeature.feature:19
+  Given User opens Hilti website for country US                                      # com.hilti.ta.steps.PerformanceSteps.userOpensHiltiWebsite(com.hilti.ta.utils.Country)
+  When User navigates to category page for /CLS_DIAMOND_CUTTING_DISCS_7126           # com.hilti.ta.steps.PerformanceSteps.userNavigatesToCategoryPage(java.lang.String)
+  Then User can see different performance level products on category page            # com.hilti.ta.steps.PerformanceSteps.diffPerformanceLevelProductsOnCategoryPage()
+  When User selects performance level Ultimate in the filters                        # com.hilti.ta.steps.PerformanceSteps.diffPerformanceLevelProductsOnCategoryPage(java.lang.String)
+  Then User can see only Ultimate performance level products on category page        # com.hilti.ta.steps.PerformanceSteps.userSeeOnlySamePerformanceTypeProduct(java.lang.String)
+      java.lang.AssertionError: expected [ULTIMATE] but found [PREMIUM]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.hilti.ta.pages.ProductCategoryPage.verifyOnlyProductPerformanceLevelsDisplayedWhenApplyFilter(ProductCategoryPage.java:167)
+	at com.hilti.ta.pages.ProductCategoryPage.verifyProductTypeOnApplyFilters(ProductCategoryPage.java:125)
+	at com.hilti.ta.steps.PerformanceSteps.userSeeOnlySamePerformanceTypeProduct(PerformanceSteps.java:43)
+	at ?.User can see only Ultimate performance level products on category page(file:///C:/Users/CKSAHU/Desktop/Phoenix_Workspace/testautomation-interview-project/target/test-classes/features/SampleFeature.feature:12)
+
+  When User resets the performance level filter                                      # com.hilti.ta.steps.PerformanceSteps.userResetFilter()
+  Then User can see different performance level products on category page            # com.hilti.ta.steps.PerformanceSteps.diffPerformanceLevelProductsOnCategoryPage()
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Dec 06, 2021 10:30:00 PM java.util.prefs.WindowsPreferences &lt;init&gt;
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 32784
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2021 10:30:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.hilti.ta.RunCucumberTest" name="runScenario" time="13.985"/>
+  <testcase classname="com.hilti.ta.RunCucumberTest" name="runScenario" time="12.59"/>
+</testsuite>

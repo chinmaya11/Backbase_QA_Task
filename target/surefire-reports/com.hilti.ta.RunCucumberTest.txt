@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.hilti.ta.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.215 sec <<< FAILURE!
+runScenario(com.hilti.ta.RunCucumberTest)  Time elapsed: 14.021 sec  <<< FAILURE!
+java.lang.AssertionError: expected [ULTIMATE] but found [PREMIUM]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.hilti.ta.pages.ProductCategoryPage.verifyOnlyProductPerformanceLevelsDisplayedWhenApplyFilter(ProductCategoryPage.java:167)
+	at com.hilti.ta.pages.ProductCategoryPage.verifyProductTypeOnApplyFilters(ProductCategoryPage.java:125)
+	at com.hilti.ta.steps.PerformanceSteps.userSeeOnlySamePerformanceTypeProduct(PerformanceSteps.java:43)
+	at ?.User can see only Ultimate performance level products on category page(file:///C:/Users/CKSAHU/Desktop/Phoenix_Workspace/testautomation-interview-project/target/test-classes/features/SampleFeature.feature:12)
+

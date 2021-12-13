@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.backbase.ta.RunCucumberTest" duration-ms="37971" started-at="2021-12-12T19:01:16 IST" finished-at="2021-12-12T19:01:54 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.backbase.ta.RunCucumberTest@527740a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="37971" started-at="2021-12-12T19:01:16 IST" finished-at="2021-12-12T19:01:54 IST">
+      <class name="com.backbase.ta.RunCucumberTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.backbase.ta.RunCucumberTest@527740a2]" name="setUpClass" is-config="true" duration-ms="220" started-at="2021-12-12T19:01:16 IST" finished-at="2021-12-12T19:01:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.backbase.ta.RunCucumberTest@527740a2]" name="runScenario" duration-ms="5459" started-at="2021-12-12T19:01:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-12T19:01:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify HomePage Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample feature to demonstrate the capabilities of this Web application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.backbase.ta.RunCucumberTest@527740a2]" name="runScenario" duration-ms="5202" started-at="2021-12-12T19:01:21 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-12T19:01:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify HomePage Sign in/Sign up pages Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample feature to demonstrate the capabilities of this Web application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.backbase.ta.RunCucumberTest@527740a2]" name="runScenario" duration-ms="15218" started-at="2021-12-12T19:01:27 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-12T19:01:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Settings page and Logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample feature to demonstrate the capabilities of this Web application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.backbase.ta.RunCucumberTest@527740a2]" name="runScenario" duration-ms="11706" started-at="2021-12-12T19:01:42 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-12T19:01:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verify Editor page to create/read/edit/delete Articles and Post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample feature to demonstrate the capabilities of this Web application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.backbase.ta.RunCucumberTest@527740a2]" name="tearDownClass" is-config="true" duration-ms="139" started-at="2021-12-12T19:01:54 IST" finished-at="2021-12-12T19:01:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.backbase.ta.RunCucumberTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.backbase.ta.RunCucumberTest -->
+</testng-results>

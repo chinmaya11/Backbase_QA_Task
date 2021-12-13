@@ -1,0 +1,743 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1795000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens backbase qa task website URL and then enter Username and Password",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_opens_backbase_qa_task_website_url_and_enter_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://qa-task.backbasecloud.com",
+                  "candidatex",
+                  "qa-is-cool"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify title on task home page",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_title_on_task_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-12T13:31:16.499Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2487000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.beforeUITests()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify HomePage Functionality",
+        "description": "",
+        "id": "sample-feature-to-demonstrate-the-capabilities-of-this-web-application;verify-homepage-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 692000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.afterUITests(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User verify task home page logo",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_task_home_page_logo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verify Home, Signin and signup link in header section",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_Home_Signin_and_signup_link_in_header_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verify popular list of tags section",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_popular_list_of_tags_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User verify list of articles pulled from either Feed, Global, or by Tag",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_list_of_articles_pulled_from_either_Feed_Global_or_by_Tag()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User verify pagination for list of articles",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_pagination_for_list_of_articles()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1771000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens backbase qa task website URL and then enter Username and Password",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_opens_backbase_qa_task_website_url_and_enter_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://qa-task.backbasecloud.com",
+                  "candidatex",
+                  "qa-is-cool"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify title on task home page",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_title_on_task_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-12T13:31:21.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1686000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.beforeUITests()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify HomePage Sign in/Sign up pages Functionality",
+        "description": "",
+        "id": "sample-feature-to-demonstrate-the-capabilities-of-this-web-application;verify-homepage-sign-in/sign-up-pages-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.afterUITests(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User verify Signup functionality",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_Signup_functionality()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User verify Signin functionality",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_Signin_functionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 550000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Signin with own credentials Email and password",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_Signin_with_own_credentials_Email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chinmaya28@backbase.com",
+                  "chinmaya28"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify user signin successfully",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.verify_user_Signin_successfully(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chinmaya28"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1772000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens backbase qa task website URL and then enter Username and Password",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_opens_backbase_qa_task_website_url_and_enter_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://qa-task.backbasecloud.com",
+                  "candidatex",
+                  "qa-is-cool"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify title on task home page",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_title_on_task_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-12T13:31:27.087Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1680000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.beforeUITests()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify Settings page and Logout functionality",
+        "description": "",
+        "id": "sample-feature-to-demonstrate-the-capabilities-of-this-web-application;verify-settings-page-and-logout-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 683000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.afterUITests(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 782000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Signin Functionality Email and password",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_signin_functionality(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chinmaya28@backbase.com",
+                  "chinmaya28"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click on settings link",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_click_on_settings_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Verify Your settings label displayed",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.verify_Your_settings_label_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify URL, username, description, email, password text field",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.verify_URL_username_description_email_password_text_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User verify update settings and logout button",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_update_settings_and_logout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User logout from application",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_logout_from_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10047000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "verify user successfully logout",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.verify_user_successfully_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2221000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens backbase qa task website URL and then enter Username and Password",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_opens_backbase_qa_task_website_url_and_enter_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://qa-task.backbasecloud.com",
+                  "candidatex",
+                  "qa-is-cool"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify title on task home page",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_verify_title_on_task_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-12T13:31:42.304Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1684000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.beforeUITests()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "User Verify Editor page to create/read/edit/delete Articles and Post",
+        "description": "",
+        "id": "sample-feature-to-demonstrate-the-capabilities-of-this-web-application;user-verify-editor-page-to-create/read/edit/delete-articles-and-post;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 712000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.backbase.ta.steps.BackgroundSteps.afterUITests(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 608000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Signin Functionality Email and password",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_signin_functionality(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chinmaya28@backbase.com",
+                  "chinmaya28"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 945000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User create a new Article title Test Web Automation about Automation description Automation is cool tags api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Web Automation",
+                  "offset": 32
+                },
+                {
+                  "val": "Automation",
+                  "offset": 58
+                },
+                {
+                  "val": "Automation is cool",
+                  "offset": 81
+                },
+                {
+                  "val": "api",
+                  "offset": 105
+                }
+              ],
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_create_a_new_Article_title_about_description_tags(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 869000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User \u003cProfileName\u003e read the created article Test Web Automation about Automation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cProfileName\u003e",
+                  "offset": 5
+                },
+                {
+                  "val": "Test Web Automation",
+                  "offset": 44
+                },
+                {
+                  "val": "Automation",
+                  "offset": 70
+                }
+              ],
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_read_the_created_article_about(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1063000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User \u003cProfileName\u003e update the article Title Updated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cProfileName\u003e",
+                  "offset": 5
+                },
+                {
+                  "val": "Updated",
+                  "offset": 44
+                }
+              ],
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_update_the_article_Title(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2081000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User \u003cProfileName\u003e delete the Article Updated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cProfileName\u003e",
+                  "offset": 5
+                },
+                {
+                  "val": "Updated",
+                  "offset": 38
+                }
+              ],
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_delete_the_Article(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User created a post My New Post on Article",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My New Post",
+                  "offset": 20
+                }
+              ],
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.User_created_a_post_on_Article(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User read the post My New Post",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My New Post",
+                  "offset": 19
+                }
+              ],
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.User_read_a_post_on_Article(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Delete the post My New Post",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My New Post",
+                  "offset": 21
+                }
+              ],
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.User_delete_post_on_Article(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User logout from application",
+            "match": {
+              "location": "com.backbase.ta.steps.BackbaseWebSteps.user_logout_from_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Sample feature to demonstrate the capabilities of this Web application",
+    "description": "",
+    "id": "sample-feature-to-demonstrate-the-capabilities-of-this-web-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BackbaseWEBFeature.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

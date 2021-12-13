@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="37.598">
+<testcase classname="Sample feature to demonstrate the capabilities of this Web application" name="Verify HomePage Functionality" time="5.381">
+<system-out><![CDATA[Given User opens backbase qa task website URL and then enter Username and Password.passed
+When User verify title on task home page....................................passed
+Given User verify task home page logo.......................................passed
+Then User verify Home, Signin and signup link in header section.............passed
+Then User verify popular list of tags section...............................passed
+Then User verify list of articles pulled from either Feed, Global, or by Tag.passed
+Then User verify pagination for list of articles............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample feature to demonstrate the capabilities of this Web application" name="Verify HomePage Sign in/Sign up pages Functionality" time="5.198">
+<system-out><![CDATA[Given User opens backbase qa task website URL and then enter Username and Password.passed
+When User verify title on task home page....................................passed
+Given User verify Signup functionality......................................passed
+Then User verify Signin functionality.......................................passed
+When User Signin with own credentials Email and password....................passed
+Then Verify user signin successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample feature to demonstrate the capabilities of this Web application" name="Verify Settings page and Logout functionality" time="15.215">
+<system-out><![CDATA[Given User opens backbase qa task website URL and then enter Username and Password.passed
+When User verify title on task home page....................................passed
+Given User Signin Functionality Email and password..........................passed
+When User click on settings link............................................passed
+When Verify Your settings label displayed...................................passed
+Then Verify URL, username, description, email, password text field..........passed
+Then User verify update settings and logout button..........................passed
+Then User logout from application...........................................passed
+Then verify user successfully logout........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample feature to demonstrate the capabilities of this Web application" name="User Verify Editor page to create/read/edit/delete Articles and Post" time="11.704">
+<system-out><![CDATA[Given User opens backbase qa task website URL and then enter Username and Password.passed
+When User verify title on task home page....................................passed
+Given User Signin Functionality Email and password..........................passed
+Then User create a new Article title Test Web Automation about Automation description Automation is cool tags api.passed
+When User <ProfileName> read the created article Test Web Automation about Automation.passed
+Then User <ProfileName> update the article Title Updated....................passed
+Then User <ProfileName> delete the Article Updated..........................passed
+When User created a post My New Post on Article.............................passed
+Then User read the post My New Post.........................................passed
+Then User Delete the post My New Post.......................................passed
+Then User logout from application...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

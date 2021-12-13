@@ -1,0 +1,90 @@
+Deliverables:
+This project can run both API and WEB tests in different mode.
+
+Must-haves:
+Delivered the solution using Java
+
+Create a document containing a series of manual test cases that cover two functionality. (Gherkin feature files are located in the [resources/features](src/test/resources/features) directory)
+API tests and steps : BackbaseAPIFeature.feature 
+Web tests and steps : BackbaseWEBFeature.feature
+
+Observation:
+1. User not able see his own Article in "your Feed" page
+Steps to reproduce:
+- User login to QA task application
+- User login with valid credentials and navigate to Home page.
+
+Actual: "your Feed" page always displaying message "No articles are here...yet"
+Expected: User should able to see all his articles in your feed page
+
+
+2. Like Post functionality is not working as expected.
+Steps to reproduce:
+- User login to QA task application
+- User login with valid credentials.
+- Click on the profile link and navigate to Profile page 
+- User able to see My posts and Favorited Posts.
+- User click on the like image present right to the each Posts, on click the count increase from 0 to 1.
+- Navigate to favorited Posts 
+
+Actual: There is no Favorited Articles present
+Expected: User should able to see list of favorited posts.
+
+- Now again go back to the My posts page
+
+Actual: Post likes count is showing 0 again.
+Expected : Post like count should show the number correctly.
+
+
+3. Follow user functionality is not working as expected.
+Steps to reproduce:
+- User login to QA task application
+- User login with valid credentials and navigate to Home page.
+- In global feed click on one Article.
+- Click on the Follow User button
+Actual: Follow user functionality is not working as expected.
+Expected: User should able to follow and unfollow the user.
+
+Actual: "your Feed" page always displaying message "No articles are here...yet"
+Expected: User should able to see all his articles in your feed page
+  
+
+
+An automatic test report that must be generated after the tests run, Supported reporting:
+- XML: target/cucumber-report.xml
+- JSON: target/cucumber-report.json
+- cukes: target/cukes/index.html
+
+
+README file containing:
+how to run the test cases/suite using maven command (assume the reader does not know your coding language)
+- GUI Mode : mvn test -Dcucumber.options.tags="@Smoke"
+- Headless Mode : mvn test -Dcucumber.options.tags="@Smoke" "-Drunmode=headless"
+- API Mode : mvn test -Dcucumber.options.tags="@api" "-Drunmode=api"
+
+how to access the generated report
+- XML: target/cucumber-report.xml
+- JSON: target/cucumber-report.json
+- cukes: target/cukes/index.html
+
+
+Nice to have:
+Toggle for on/off headless execution for the API and front-end tests using maven command
+- GUI Mode : mvn test -Dcucumber.options.tags="@Smoke"
+- Headless Mode : mvn test -Dcucumber.options.tags="@Smoke" "-Drunmode=headless"
+- API Mode : mvn test -Dcucumber.options.tags="@api" "-Drunmode=api"
+
+CI/CD scripts in any tool (Jenkins, GitHub Actions, GitLab CI, Travis CI, etc..)
+We can configure these below command in Jenkins goal to achive CI/CD
+- GUI Mode : mvn test -Dcucumber.options.tags="@Smoke"
+- Headless Mode : mvn test -Dcucumber.options.tags="@Smoke" "-Drunmode=headless"
+- API Mode : mvn test -Dcucumber.options.tags="@api" "-Drunmode=api"
+
+Framework modules that can demonstrate your skills in the design and implementation of testing frameworks, e.g. layers, design patterns, or other architectural decisions. Please hold the balance of solution complexity vs tasks being solved, do not overengineer
+This framework developed on Page Object Model design pattern using BDD approach.
+Tools Used:
+- Java 8
+- Selenium 3.141.59
+- Cucumber 5.6.0
+- TestNG 7.1
+- Maven 3.6
